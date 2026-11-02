@@ -32,9 +32,10 @@ with st.sidebar:
         ["Professional & Authoritative", "Casual & Engaging", "Bold & Provocative", "Educational"]
     )
     
+    # Updated to Groq's available open-weight OpenAI models
     model_choice = st.selectbox(
         "Choose Groq Model",
-        ["llama-3.3-70b-versatile", "llama-3.1-8b-instant"]
+        ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]
     )
 
 # Main Dashboard Tabs
